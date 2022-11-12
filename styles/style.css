@@ -14,3 +14,39 @@
 h1 {
     font-size: 50px;
 }
+
+.container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.search-bar {
+    width: 50%;
+    max-width: 600px;
+    background: whitesmoke;
+    align-items: center;
+    height: 60px;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+.search-bar input {
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    flex: 2;
+    font-size: 20px;
+}
+
+
+
+.search-bar button {
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: lightgrey;
+}
