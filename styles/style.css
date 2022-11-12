@@ -1,0 +1,16 @@
+.fa-book-open-cover {
+    color: aliceblue;
+}
+
+.banner {
+    background-image: url(images/png.webp);
+    background-position: cover;
+    height: 100vh;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 50px;
+}
